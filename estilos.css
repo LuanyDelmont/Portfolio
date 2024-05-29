@@ -1,0 +1,122 @@
+ul {
+    font-family: 'Montserrat', sans-serif;
+
+    overflow: hidden;
+    list-style-type: none;
+    /*remover os ícones de lista*/
+
+}
+
+ul li {
+    float: left;
+    padding: 0;
+    margin: 0;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 14px 16px;
+    display: block;
+}
+
+ul li a:hover {
+    background-color: chartreuse;
+    color: #000000;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+
+body {
+    background-color: black;
+    /* muda a cor de fundo da página*/
+    color: white;
+    /*muda a cor da fonte */
+}
+
+.título-destaque {
+    color: #836fff;
+    /* muda a cor da fonte */
+}
+
+.apresentacao {
+    display: flex;
+    /* torna o conteúdo mais flexível */
+    justify-content: space-between;
+    /* ajusta a disposição dos links */
+    align-items: center;
+    /* alinha os itens mais para o centro da página */
+    margin: 10% 15%;
+    /* alinha a margem em porcentagem 10% para esquerda e 15% para direita */
+    ;
+
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    /* define a direção dos itens trabalhados */
+    gap: 40px;
+    /* ajuda o conteúdo a ter mais espeço entre os elemnetos da página*/
+
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    /* definir o tamanho da fonte */
+    font-family: 'Krona One', sans-serif;
+    /* definir a fonte do conteúdo (no caso, o título). */
+
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 24px;
+    /* definir o tamanho da fonte */
+    font-family: 'Montserrat', sans-serif;
+    /* definir a fonte do conteúdo (no caso, o paragrafo). */
+
+}
+
+.imagem {
+    width: 300px;
+    /* define a largura da imagem */
+    height: 320px;
+    /* define a altura da imagem */
+}
+
+.apresentacao__links {
+    /* text-decoration: none;  decoração do texto (no caso, a cor do link).*/
+    /*só pode ser executado quando declarado na tag de link, ou seja, a tag <a>*/
+    /* padding: 21.5px 0; ajustar as bordas dos links. */
+    display: flex;
+    /* dar mais flexibilidade ao link */
+    justify-content: space-between;
+    /* ajusta a disposição dos links */
+
+}
+
+.apresentacao__links__link {
+    text-decoration: none;
+    /*decoração do texto (no caso, a cor do link), feito: tirou o sublinhado do link do LinkedIn.*/
+    background-color: #22d4fd;
+    padding: 21.5px 0;
+    /* para ajustar as bordas dos links */
+    width: 150px;
+    /* para aumentar a largura do conteudo */
+    border-radius: 16px;
+    /* para arredondar as bordas */
+    font-size: 24px;
+    /* para aumentar o tamanho da fonte */
+    text-align: center;
+    /* para alinhar os itens para o centro da página */
+    color: black;
+    /* para mudar a cor da fonte */
+    font-weight: 800;
+    /* aumenta a intensidade do negrito da fonte */
+    font-family: 'Montserrat', sans-serif;
+    /* para mudar a fonte */
+}
